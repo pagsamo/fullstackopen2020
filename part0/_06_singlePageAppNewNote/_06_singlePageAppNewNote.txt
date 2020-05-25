@@ -1,0 +1,13 @@
+title SPA Form Submit
+
+Browser->Server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+
+note over Browser: 
+inserts the new note to the end of the notes array
+clears the value in the textbox
+recreate the list with thew new note at the end
+sends the data to the server
+with content type: application/json
+to location: https://fullstack-exampleapp.herokuapp.com/new_note_spa
+but prevent default behaviour of browser going to the location
+end note
